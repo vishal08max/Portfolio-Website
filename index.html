@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vishal Raj | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">VRAJ<span>.</span></div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+   <!-- Hero Section -->
+   <section id="home" class="section enhanced-hero">
+    <div class="hero-left">
+      <h1>Hey, I'm <span>Vishal Raj</span></h1>
+      <p>Turning Data Into Intelligence ⚡</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+    <div class="hero-right">
+      <img src="your-image.jpg" alt="Vishal Raj" class="floating-image" />
+    </div>
+  </section>
+
+  <section id="about" class="section glass">
+    <h2>About Me</h2>
+    <p>I am a Passionate Data Scientist and AI Engineer with a deep curiosity for solving real-world problems using intelligent systems. I am specialized in:
+      <li>Python Programming</li>
+      <li>Data Manipulation using NumPy and Pandas</li>
+      <li>Machine Learning & Deep Learning</li>
+      <li>Natural Language Processing (NLP)</li>
+      <li>Generative AI</li>
+      My mission is to bridge the gap between data and decisions using the power of AI. But that’s not all.
+      I’m also a Content Creator on YouTube, where I share my journey, knowledge, and creativity. From travel vlogs and motivational videos to AI content, I love connecting with people through powerful storytelling.
+      With a strong interest in filmmaking, I pursue photography and videography as creative outlets that fuel my vision and editing skills. Blending Tech & Art is not just what I do — it’s who I am.</p>
+  </section>
+
+  <section id="projects" class="section glass">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+  
+      <div class="project-card">
+        <h3>🍽️ Zomato Data EDA</h3>
+        <p>Exploratory data analysis of Zomato Bangalore data.</p>
+        <button class="toggle-btn">View Project</button>
+        <div class="project-details">
+          <p><strong>Description:</strong> Analyzed restaurant distribution, ratings, cuisine preferences, and delivery availability in Bangalore.</p>
+          <p><strong>Libraries:</strong> Pandas, Matplotlib, Seaborn, Plotly</p>
+          <p><strong>Insights:</strong> Found trends in food type and best-rated areas.</p>
+        </div>
+      </div>
+  
+      <div class="project-card">
+        <h3>💻 Laptop Price Prediction</h3>
+        <p>Predicted laptop prices using ML regression models.</p>
+        <button class="toggle-btn">View Project</button>
+        <div class="project-details">
+          <p><strong>Description:</strong> Built a regression model to predict laptop prices based on brand, processor, SSD, RAM, etc.</p>
+          <p><strong>Libraries:</strong> Pandas, Sklearn, Matplotlib</p>
+          <p><strong>Model:</strong> Random Forest Regressor (R² = 0.88)</p>
+        </div>
+      </div>
+  
+      <div class="project-card">
+        <h3>🧠 Diabetes Prediction (ANN)</h3>
+        <p>Predicted diabetes using artificial neural network.</p>
+        <button class="toggle-btn">View Project</button>
+        <div class="project-details">
+          <p><strong>Description:</strong> Used TensorFlow ANN to predict diabetes from health metrics.</p>
+          <p><strong>Libraries:</strong> TensorFlow, Keras, NumPy, Pandas</p>
+          <p><strong>Accuracy:</strong> 96% on test data</p>
+        </div>
+      </div>
+  
+      <div class="project-card">
+        <h3>🐦 Twitter Sentiment Analysis (NLP)</h3>
+        <p>Classified tweet sentiments using NLP techniques.</p>
+        <button class="toggle-btn">View Project</button>
+        <div class="project-details">
+          <p><strong>Description:</strong> Preprocessed tweets and trained LSTM model to detect positive/negative/neutral sentiment.</p>
+          <p><strong>Libraries:</strong> NLTK, TensorFlow, Word2Vec, Seaborn</p>
+          <p><strong>Model:</strong> LSTM (Accuracy: 85%)</p>
+        </div>
+      </div>
+  
+      <div class="project-card coming-soon">
+        <h3>🚀 More Projects Coming Soon...</h3>
+        <p>I'm constantly building new stuff in AI, GenAI, and data apps. Stay tuned!</p>
+      </div>
+  
+    </div>
+  </section>
+
+  <!-- === Content Creator Section === -->
+<section id="content" class="section content-creator">
+    <h2>🎥 Content Creator</h2>
+  <div class="creator-info">
+    <div class="creator-text">
+      <h3>Inspire and Explore with Vishal Raj</h3>
+      <p>
+        I create motivating content, food and travel vlogs, and personal growth videos that aim to inspire young minds.
+        Join my journey as I explore places, try new things, and spread positivity. 💪🔥
+      </p>
+      <a href="https://www.youtube.com/@vishalrajn8702" target="_blank" class="btn subscribe-btn">Subscribe Now</a>
+    </div>
+    <div class="creator-video">
+      <!-- Replace with your own video embed -->
+      <iframe width="100%" height="215" src="https://youtube.com/embed/HShmnuJOrG0" 
+        title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+  <section id="contact" class="section glass">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea rows="5" placeholder="Your message..." required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vishal Raj. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
